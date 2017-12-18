@@ -57,7 +57,7 @@ steps_day <- tapply(data$steps, data$date, sum, na.rm=TRUE)
 histogram(steps_day, nint=15, type="count", xlab="Total steps per day")
 ```
 
-![plot of chunk sum steps per day](figure/sum steps per day-1.png)
+![plot of chunk sum steps per day]("figure/sum steps per day-1.png")
 
 
 ```r
