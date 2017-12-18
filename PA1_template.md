@@ -140,7 +140,7 @@ fullst_day <- tapply(data_full$full_steps, data_full$date, sum)
 histogram(fullst_day, nint=15, type="count", xlab="Total steps per day with filled NA")
 ```
 
-![plot of chunk histogram full sum per day]('figure/histogram full sum per day-1.png')
+![plot of chunk histogram full sum per day](figure/histogram%20full%20sum%20per%20day-1.png)
 
 
 ```r
